@@ -17,6 +17,8 @@
 import './commands'
 import 'cypress-xpath'
 import 'cypress-mochawesome-reporter/register';
+require('browserstack-cypress-cli/bin/testObservability/cypress')
+
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
