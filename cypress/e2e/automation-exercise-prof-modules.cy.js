@@ -6,7 +6,7 @@ const login = require('../modules/login/index.js')
 
 
 describe('Automation Exercise', () => {
-  it.only('Cadastrar novo usuário com sucesso', () => {
+  it('Cadastrar novo usuário com sucesso', () => {
     cy.visit('https://automationexercise.com')
     cy.get('a[href*=login]').click() //mapear elemento
     //`teste${Date.now()}@teste.com`
