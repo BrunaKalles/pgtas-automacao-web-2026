@@ -1,0 +1,14 @@
+Itens para refinar e definir na diretriz:
+
+Atualmente:
+- os módulos dedicados são armazenados em uma pasta chamada 'acoes'
+- o aninhamento de código para resolver as Promises no arquivo de spec está
+prejudicando a legibilidade e manutenibilidade do código
+
+Definições:
+- os módulos dedicados devem ser armazenados em 'modules/<funcionalidade>'
+- sempre que possível, evite aninhamento de código para resolver Promises, 
+prefira simplificar o teste para priorizar legibilidade e manutenibilidade
+
+
+Atualize a Diretriz de acordo com essa revisão.
